@@ -1,0 +1,39 @@
+/*--Start coding for Introduction page--*/
+.intro_page h2{
+	color: #1a0f02;
+	font-weight: bold;
+	border-bottom: 2px solid black;
+}
+.intro_page p{
+	text-align: justify;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: initial;
+}
+
+/*--Start coding for Admistraction page--*/
+.table_text_1{
+	font-size: 12px;
+font-weight: bold;
+}
+/*--Start coding for Gallery page--*/
+
+.gallery_top{
+	margin-top: 15px;
+}
+.gallery_bootom{
+	margin-top: 30px;
+}
+/*--Start coding for Contact page--*/
+
+.contact_us_page h4{
+	border-bottom: 2px solid #504c4c;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+.contact_us_page p a{
+	color: #56534f;
+	font-size: 16px;
+	font-weight: bold;
+}

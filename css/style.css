@@ -451,8 +451,8 @@ a {
   flex: 0 0 33.3%;
   align-items: center;
 }
-.footer_left {
-  /* margin-left: 50px; */
+.footer_left h2 {
+  margin-bottom: 7px;
 }
 .footer_left h2 {
   color: #fff;
@@ -465,12 +465,12 @@ a {
 }
 .footer_left ul li a {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .contact_us p a {
   color: #fff;
-  font-size: 13px;
+  font-size: 17px;
   font-weight: bold;
   text-decoration: none;
 }

@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background: rgb(187, 8, 8);
+  background: #f0f3f5;
 }
 h1,
 h2,
@@ -27,6 +27,10 @@ a {
 }
 .main-content-website {
   background-color: #ffffff;
+  max-width: 1270px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 /******************************************/

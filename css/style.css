@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
 
-  background: #f0f3f5;
+  background: linear-gradient(90deg, #020024, #e0f5f1 0, #fff4f4);
 }
 h1,
 h2,
@@ -22,11 +22,7 @@ a {
   text-decoration: none;
 }
 
-.container {
-  background: #f0f3f5;
-}
 .main-content-website {
-  background-color: #ffffff;
   max-width: 1270px;
   width: 90%;
   margin: 0 auto;
@@ -76,7 +72,7 @@ a {
 }
 
 .menu {
-  background: #f0f3f5;
+  background: #fff;
   border-bottom: 3px solid #f5f8f8;
   margin-top: 15px;
   padding: 0;
@@ -92,10 +88,11 @@ a {
   color: #fff;
 }
 .dropdown_menu a {
-  background: #355655;
-  color: #fff;
+  background: #ffffff;
+  color: #110f0f;
   font-weight: bold;
   font-size: 14px;
+  border-bottom: 1px solid #b1afb32b;
 }
 
 /*---------- Start coding for headline------*/
@@ -385,6 +382,9 @@ a {
   font-weight: bold;
   margin-top: 10px;
 }
+.about-intro h2 {
+  border-bottom: 1px solid rgb(248, 244, 244);
+}
 /*---------- Start coding for container map-------- */
 .container_map {
   margin-top: 50px;
@@ -440,7 +440,6 @@ a {
 /*---------- Start coding for footer-------- */
 .footer_top {
   padding: 30px 10px 30px 10px;
-  background: #000;
 }
 .footer-top_content {
   display: flex;
@@ -455,7 +454,7 @@ a {
   margin-bottom: 7px;
 }
 .footer_left h2 {
-  color: #fff;
+  color: #168483;
   font-weight: bold;
   font-size: 24px;
 }
@@ -464,13 +463,13 @@ a {
   padding-top: 6px;
 }
 .footer_left ul li a {
-  color: #fff;
+  color: #168483;
   font-size: 15px;
   font-weight: bold;
 }
 .contact_us p a {
-  color: #fff;
-  font-size: 17px;
+  color: #168483;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
 }
@@ -503,12 +502,12 @@ a {
   padding-bottom: 10px;
 }
 .footer_bootom_left p {
-  color: #fff;
+  color: #168483;
   margin-left: 30px;
   font-weight: bold;
 }
 .footer_bootom_right p {
-  color: #fff;
+  color: #168483;
   margin-left: 30px;
   font-weight: bold;
   text-align: right;
@@ -523,7 +522,7 @@ a {
 }
 
 .footer-bottom-text p {
-  color: #fff;
+  color: #168483;
   font-weight: bold;
   margin-top: 14px;
 }

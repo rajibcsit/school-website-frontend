@@ -592,7 +592,7 @@ a {
     flex-direction: column;
   }
   .carousel-item img {
-    height: 320px !important;
+    height: 300px !important;
   }
 }
 @media (max-width: 487px) {
@@ -612,5 +612,8 @@ a {
     justify-content: center;
     text-align: center;
     align-items: center;
+  }
+  .carousel-item img {
+    height: 200px !important;
   }
 }

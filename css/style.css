@@ -76,13 +76,13 @@ a {
 }
 
 .menu {
-  background: #000;
+  background: #f0f3f5;
   border-bottom: 3px solid #f5f8f8;
   margin-top: 15px;
   padding: 0;
 }
 .menu_text {
-  color: #fff;
+  color: #110f0f;
   font-weight: bold;
   font-size: 14px;
   padding: 16px 11px;

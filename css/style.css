@@ -591,6 +591,9 @@ a {
   .footer-bottom {
     flex-direction: column;
   }
+  .carousel-item img {
+    height: 320px !important;
+  }
 }
 @media (max-width: 487px) {
   .footer-top-header {

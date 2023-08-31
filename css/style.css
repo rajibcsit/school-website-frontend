@@ -321,6 +321,7 @@ a {
 /*---------- Start coding for Slider-------- */
 .slider {
   margin-top: -8px;
+  margin-bottom: 30px;
 }
 .carousel-item img {
   height: 520px !important;

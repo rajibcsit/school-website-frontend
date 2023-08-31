@@ -83,10 +83,7 @@ a {
   font-size: 14px;
   padding: 16px 11px;
 }
-.menu a:hover {
-  background: #12b9ad;
-  color: #fff;
-}
+
 .dropdown_menu a {
   background: #ffffff;
   color: #110f0f;
@@ -97,7 +94,7 @@ a {
 
 /*---------- Start coding for headline------*/
 .headline {
-  margin-top: 20px;
+  padding-bottom: 15px;
 }
 
 .news h5 {
@@ -109,13 +106,12 @@ a {
   font-weight: bold;
 }
 .breaking-news-headline {
-  display: block;
+  position: block;
   position: absolute;
   font-family: arial;
   font-size: 13px;
-  margin-top: -22px;
-  color: white;
-  margin-left: 150px;
+  margin-top: -38px;
+  margin-left: 242px;
 }
 
 .breaking-news-title {
@@ -140,11 +136,11 @@ a {
 
 .breaking-news-colour {
   background-color: #e3eddee6;
-  padding: 15px;
+  height: 48px;
 }
 
 .breaking_news {
-  height: 30px;
+  height: 38px;
   width: 97.5%;
   overflow: hidden;
   position: absolute;
@@ -299,6 +295,11 @@ a {
     margin-top: 0;
   }
 }
+
+.notice {
+  background-color: #e3eddee6;
+  padding-top: 7px;
+}
 .notice_time {
   text-align: right;
   color: #39f2e4;
@@ -312,9 +313,14 @@ a {
   padding-right: 16px;
 }
 
+/* chairmain section css */
+#chairmain_table tbody td {
+  padding: 5px;
+}
+
 /*---------- Start coding for Slider-------- */
 .slider {
-  margin-top: 30px;
+  margin-top: -8px;
 }
 .carousel-item img {
   height: 520px !important;
@@ -347,8 +353,7 @@ a {
 
 /*---------- Start coding for Body container-------- */
 .body_container {
-  margin-top: 65px;
-  padding-bottom: 80px;
+  padding-bottom: 40px;
 }
 .message h2 {
   padding-bottom: 10px;
@@ -387,6 +392,7 @@ a {
 }
 .about-intro h2 {
   border-bottom: 1px solid rgb(248, 244, 244);
+  padding-bottom: 12px;
 }
 /*---------- Start coding for container map-------- */
 .container_map {
@@ -604,6 +610,18 @@ a {
   .breaking_news {
     width: 92.5%;
   }
+  .footer_left h2 {
+    font-size: 19px;
+  }
+  .footer_left {
+    padding-top: 10px;
+  }
+  .footer_left ul li a {
+    font-size: 13px;
+  }
+  .contact_us p a {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 408px) {
@@ -615,5 +633,14 @@ a {
   }
   .carousel-item img {
     height: 200px !important;
+  }
+  .body_container {
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .table-responsive-sm {
+    width: 100% !important;
   }
 }

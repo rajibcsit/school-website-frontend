@@ -38,7 +38,7 @@ a {
   align-items: center;
 }
 .header-top {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
@@ -58,7 +58,7 @@ a {
   margin-top: 6px;
   font-family: cursive;
 }
-.contact_info {
+/* .contact_info {
   padding-top: 20px;
   padding-right: 10px;
   text-align: right;
@@ -69,6 +69,16 @@ a {
   font-size: 15px;
   font-weight: bold;
   margin: 0;
+}
+.icon {
+  margin-top: 5px;
+} */
+.contact-header {
+  display: flex;
+  margin-top: -20px;
+}
+.header-top-left {
+  margin-top: 28px;
 }
 
 .menu {
@@ -475,54 +485,14 @@ a {
 .footer_left ul li a {
   color: #168483;
   font-size: 15px;
-  font-weight: bold;
+  font-weight: 400;
 }
-.contact_us p a {
+.contact-info p {
   color: #168483;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
 }
-.fb_icon {
-  background: #585af6;
-  color: #fff;
-  padding: 5px 13px;
-  border-radius: 14px;
-}
-.t_icon {
-  background: #00aeff;
-  color: #fff;
-  padding: 5px 7px;
-  border-radius: 14px;
-}
-.g_icon {
-  background: #d51761;
-  color: #fff;
-  padding: 7px 3px;
-  border-radius: 17px;
-}
-.y_icon {
-  background: #f80808cc;
-  color: #fff;
-  padding: 7px 10px;
-  border-radius: 17px;
-}
-.footer_bootom {
-  margin-top: 30px;
-  padding-bottom: 10px;
-}
-.footer_bootom_left p {
-  color: #168483;
-  margin-left: 30px;
-  font-weight: bold;
-}
-.footer_bootom_right p {
-  color: #168483;
-  margin-left: 30px;
-  font-weight: bold;
-  text-align: right;
-  margin-right: 25px;
-}
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -533,8 +503,26 @@ a {
 
 .footer-bottom-text p {
   color: #168483;
-  font-weight: bold;
+  font-weight: 400;
   margin-top: 14px;
+}
+.find-us {
+  margin-top: 20px;
+  display: flex;
+}
+.contact-icon {
+  display: flex;
+}
+.contact-info p {
+  margin-left: 15px;
+  margin-top: 12px;
+}
+.social-icon a {
+  margin-top: 20px;
+  padding: 5px 13px;
+}
+.social-icon {
+  margin-top: 20px;
 }
 
 /*------------------ responsive............*/

@@ -3,6 +3,7 @@ body {
   padding: 0;
 
   background: linear-gradient(90deg, #020024, #e0f5f1 0, #fff4f4);
+  /* background: red; */
 }
 h1,
 h2,
@@ -555,6 +556,13 @@ a {
   .breaking_news {
     width: 95.7%;
   }
+  div#navbarNavDropdown {
+    position: absolute;
+    z-index: 5;
+    top: 100%;
+    background: #ffffff;
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
@@ -617,6 +625,12 @@ a {
   }
   .video-source {
     width: 100% !important;
+  }
+  .main-content-website {
+    max-width: 1240px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 4px;
   }
 }
 

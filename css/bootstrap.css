@@ -3861,12 +3861,15 @@ tbody.collapse.show {
 }
 
 .navbar-toggler {
-  padding: 0.25rem 0.75rem;
+  /* padding: 0.25rem 0.75rem; */
   font-size: 1.25rem;
   line-height: 1;
-  background: transparent;
+  background: #f6fafa;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  /* margin-left: 37px; */
+  /* margin-right: -31px; */
+  /* text-align: center; */
 }
 
 .navbar-toggler:focus,
@@ -3875,10 +3878,10 @@ tbody.collapse.show {
 }
 
 .navbar-toggler-icon {
-  display: inline-block;
+  /* display: inline-block; */
   width: 1.5em;
   height: 1.5em;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   content: "";
   background: no-repeat center center;
   background-size: 100% 100%;

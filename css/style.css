@@ -487,6 +487,13 @@ a {
   font-size: 16px;
   font-weight: 400;
 }
+.info p {
+  color: #168483;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 12px;
+  margin-top: 15px;
+}
 
 .footer-bottom {
   display: flex;
@@ -509,7 +516,6 @@ a {
   display: flex;
 }
 .contact-info p {
-  margin-left: 15px;
   margin-top: 15px;
 }
 .social-icon a {
@@ -640,6 +646,12 @@ a {
     justify-content: center;
     text-align: center;
     align-items: center;
+  }
+  .contact-info p {
+    font-size: 12px;
+  }
+  .header-icon {
+    width: 30px;
   }
   .carousel-item img {
     height: 200px !important;

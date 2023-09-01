@@ -612,7 +612,11 @@ a {
   .footer-top-header {
     flex: 0 0 100%;
   }
+  .video-source {
+    width: 100% !important;
+  }
 }
+
 @media (max-width: 430px) {
   .breaking_news {
     width: 92.5%;
@@ -646,6 +650,9 @@ a {
   }
   .body_container {
     padding-bottom: 0px;
+  }
+  .video-source {
+    width: 100% !important;
   }
 }
 
